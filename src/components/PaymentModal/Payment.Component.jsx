@@ -8,7 +8,7 @@ export default function PaymentModal({ isOpen, setIsOpen, price }) {
 
     const launchRazorPay = () => {
         let options = {
-            key: '< your razor pay api key >',
+            key: 'rzp_test_Lv4KAj3jEywHv1',
             amount: price * 100,
             currency: "INR",
             name: "Book My Show Clone",
